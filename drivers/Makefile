@@ -170,3 +170,5 @@ obj-$(CONFIG_SENSORS_SSC)	+= sensors/
 obj-$(CONFIG_HUAWEI_DRIVERS)    += huawei_platform/
 obj-$(CONFIG_HUAWEI_FACTORY_INFO) += hw_fac_info/
 obj-$(CONFIG_HUAWEI_USB)	+= hwusb/
+
+obj-$(CONFIG_ANDROID)		+= android/
